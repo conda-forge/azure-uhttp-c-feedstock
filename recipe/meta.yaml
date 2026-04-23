@@ -1,5 +1,5 @@
 {% set name = "azure-uhttp-c" %}
-{% set version = "2020.01.22" %}
+{% set version = "2020-12-09" %}
 
 package:
   name: {{ name }}
@@ -8,7 +8,7 @@ package:
 source:
   - url: https://github.com/Azure/azure-uhttp-c/archive/{{ version.replace('.', '-') }}.tar.gz
     fn: {{ name }}-{{ version }}.tar.gz
-    sha256: 51a1849c78bd9a0d20ed838f93dc07407ab3be61ed2bacdbcc95535aa5ae7bbd
+    sha256: 6b4516d7c753470ff15ae3ebf1e985a8aa6e22d82e7d2f4f0d7f33e4c186de21
     patches:
       - install.patch
 
